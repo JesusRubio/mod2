@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+struct TodoItem: Identifiable{
+  let id = UUID()
+  var title: String
+  
+  init(_ mytitle:String)
+  {
+    title = mytitle
+  }
+}

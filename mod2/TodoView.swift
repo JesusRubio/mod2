@@ -9,16 +9,14 @@ import SwiftUI
 
 struct TodoItemView: View {
   @State var todos = [
-    TodoItem("Eat1"),
-    TodoItem("Sleep2"),
-    TodoItem("Code3")
+    TodoItem("Eat"),
+    TodoItem("Sleep"),
+    TodoItem("Code")
   ]
   
     var body: some View {
-      List($todos){ $itmX in
-        TextField("Number",text: $itmX.title)
-        
-        Text(itmX.title)
+      List($todos){ itm in
+        TextField("Number",text: itm.title)
         
       }
     }

@@ -9,7 +9,17 @@ import SwiftUI
 
 struct ListWeatherInfo: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+      List{
+        ForEach(weatherData){item in
+          HStack{
+            Image(systemName:item.image)
+              .frame(width:50, alignment:.center)
+            Text("\(item.temp) ℉")
+              .frame(width:80, alignment:.leading)
+            Text("\(item.city)")
+          }.font(.system(size:24))
+        }
+      }
     }
 }
 

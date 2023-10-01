@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,14 @@
 		67052C952AC9E50E00361EFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67052C942AC9E50E00361EFD /* ContentView.swift */; };
 		67052C972AC9E51000361EFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67052C962AC9E51000361EFD /* Assets.xcassets */; };
 		67052C9B2AC9E51000361EFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67052C9A2AC9E51000361EFD /* Preview Assets.xcassets */; };
+		6736E08D2AC9F3DE00F392F6 /* PlayWithList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6736E08C2AC9F3DE00F392F6 /* PlayWithList.swift */; };
+		6736E08F2AC9F7F000F392F6 /* WeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6736E08E2AC9F7F000F392F6 /* WeatherInfo.swift */; };
+		6736E0912AC9F96900F392F6 /* ListWeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6736E0902AC9F96900F392F6 /* ListWeatherInfo.swift */; };
+		6736E0932AC9FC1700F392F6 /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6736E0922AC9FC1700F392F6 /* WeatherRow.swift */; };
+		6736E0952AC9FCBB00F392F6 /* ListWeatherInfo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6736E0942AC9FCBB00F392F6 /* ListWeatherInfo2.swift */; };
+		6736E0992AC9FF3200F392F6 /* NumList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6736E0982AC9FF3200F392F6 /* NumList.swift */; };
+		6736E09B2ACA06DE00F392F6 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6736E09A2ACA06DE00F392F6 /* TodoItem.swift */; };
+		6736E09D2ACA074300F392F6 /* TodoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6736E09C2ACA074300F392F6 /* TodoItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,14 @@
 		67052C962AC9E51000361EFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67052C982AC9E51000361EFD /* mod2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mod2.entitlements; sourceTree = "<group>"; };
 		67052C9A2AC9E51000361EFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6736E08C2AC9F3DE00F392F6 /* PlayWithList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayWithList.swift; sourceTree = "<group>"; };
+		6736E08E2AC9F7F000F392F6 /* WeatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInfo.swift; sourceTree = "<group>"; };
+		6736E0902AC9F96900F392F6 /* ListWeatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWeatherInfo.swift; sourceTree = "<group>"; };
+		6736E0922AC9FC1700F392F6 /* WeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
+		6736E0942AC9FCBB00F392F6 /* ListWeatherInfo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWeatherInfo2.swift; sourceTree = "<group>"; };
+		6736E0982AC9FF3200F392F6 /* NumList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumList.swift; sourceTree = "<group>"; };
+		6736E09A2ACA06DE00F392F6 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		6736E09C2ACA074300F392F6 /* TodoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +56,7 @@
 				67052C902AC9E50E00361EFD /* Products */,
 			);
 			sourceTree = "<group>";
+			wrapsLines = 0;
 		};
 		67052C902AC9E50E00361EFD /* Products */ = {
 			isa = PBXGroup;
@@ -57,6 +74,14 @@
 				67052C962AC9E51000361EFD /* Assets.xcassets */,
 				67052C982AC9E51000361EFD /* mod2.entitlements */,
 				67052C992AC9E51000361EFD /* Preview Content */,
+				6736E08C2AC9F3DE00F392F6 /* PlayWithList.swift */,
+				6736E08E2AC9F7F000F392F6 /* WeatherInfo.swift */,
+				6736E0902AC9F96900F392F6 /* ListWeatherInfo.swift */,
+				6736E0942AC9FCBB00F392F6 /* ListWeatherInfo2.swift */,
+				6736E0922AC9FC1700F392F6 /* WeatherRow.swift */,
+				6736E0982AC9FF3200F392F6 /* NumList.swift */,
+				6736E09A2ACA06DE00F392F6 /* TodoItem.swift */,
+				6736E09C2ACA074300F392F6 /* TodoItemView.swift */,
 			);
 			path = mod2;
 			sourceTree = "<group>";
@@ -105,7 +130,7 @@
 				};
 			};
 			buildConfigurationList = 67052C8A2AC9E50E00361EFD /* Build configuration list for PBXProject "mod2" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -139,8 +164,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6736E0952AC9FCBB00F392F6 /* ListWeatherInfo2.swift in Sources */,
+				6736E09B2ACA06DE00F392F6 /* TodoItem.swift in Sources */,
+				6736E09D2ACA074300F392F6 /* TodoItemView.swift in Sources */,
+				6736E08F2AC9F7F000F392F6 /* WeatherInfo.swift in Sources */,
 				67052C952AC9E50E00361EFD /* ContentView.swift in Sources */,
 				67052C932AC9E50E00361EFD /* mod2App.swift in Sources */,
+				6736E0992AC9FF3200F392F6 /* NumList.swift in Sources */,
+				6736E0932AC9FC1700F392F6 /* WeatherRow.swift in Sources */,
+				6736E08D2AC9F3DE00F392F6 /* PlayWithList.swift in Sources */,
+				6736E0912AC9F96900F392F6 /* ListWeatherInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +295,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = mod2/mod2.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"mod2/Preview Content\"";
-				DEVELOPMENT_TEAM = 6PNFAG4K5D;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -279,13 +313,14 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.elcamino.mod2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -300,10 +335,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = mod2/mod2.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"mod2/Preview Content\"";
-				DEVELOPMENT_TEAM = 6PNFAG4K5D;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -317,13 +353,14 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.elcamino.mod2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;

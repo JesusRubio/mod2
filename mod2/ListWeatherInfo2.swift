@@ -8,13 +8,19 @@
 import SwiftUI
 
 struct ListWeatherInfo2: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+  var item: WeatherInfo
+  
+  var body: some View {
+    List{
+      ForEach(weatherData){item in
+        WeatherRow(weather:item)
+      }
     }
+  }
 }
 
 struct ListWeatherInfo2_Previews: PreviewProvider {
-    static var previews: some View {
-        ListWeatherInfo2()
-    }
+  static var previews: some View {
+    ListWeatherInfo2(item: WeatherInfo(image: "snow", temp: 5, city: "New York"))
+  }
 }

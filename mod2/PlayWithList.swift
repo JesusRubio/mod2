@@ -8,9 +8,40 @@
 import SwiftUI
 
 struct PlayWithList: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+ 
+  let letters = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p"]
+  
+  var body: some View {
+    VStack
+    {
+      ScrollView(.vertical, showsIndicators:false)
+      {
+        ForEach(letters, id: \.self){
+          letter in
+          Image(systemName: letter)
+            .font(.largeTitle)
+            .foregroundColor(Color.yellow)
+            .frame(width: 50, height: 50)
+            .background(Color.blue)
+            .symbolVariant(.circle.fill)
+        }
+      }.frame(width:50, height:300)
+      
+      ScrollView(.horizontal, showsIndicators:true) {
+        HStack{
+          ForEach(letters, id: \.self){
+            name in
+            Image(systemName: name)
+              .font(.largeTitle)
+              .foregroundColor(Color.yellow)
+              .frame(width: 50, height: 50)
+              .background(Color.blue)
+              .symbolVariant(.circle.fill)
+          }
+        }
+      }.frame(width:300, height:50)
     }
+  }
 }
 
 struct PlayWithList_Previews: PreviewProvider {
